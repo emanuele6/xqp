@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 				}
 			}
 		} else {
-			printf("0x%08x\n", qpr->child);
+			printf("0x%08X\n", qpr->child);
 		}
 	} else {
 		ret = EXIT_FAILURE;
